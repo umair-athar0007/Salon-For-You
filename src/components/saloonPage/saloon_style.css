@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.staticpic{
+    background-image: url(https://iili.io/LCfjdx.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    height: 100vh;
+}
+.logoname{
+    overflow: hidden;
+    font-size: 2rem;
+    color: rgb(209, 159, 104);
+    font-weight: 500;
+    margin-bottom: 26px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+
+.mycontainer{
+    position: absolute;
+    left: 5px;
+    top: 20%;
+}
+
+.hero_caption{
+    overflow: hidden;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.confident{
+    color: rgba(160, 21, 21, 0.658);
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+   
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+
+.intro {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.intro h4 {
+    font-size: 15px;
+    color: rgb(150, 160, 169);
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+
+}
+
+.intro h2 {
+
+    color: black;
+    font-size: 40px;
+    margin-bottom: 15px;
+  
+
+}
+
+.intro p {
+    color: rgb(127, 128, 129);
+    font-weight: 500;
+    margin-bottom: 30px;
+} 
+
+/* images css */
+
+/* Body & Image List Styles
+-------------------------------------------------------------- */
+.mybody {
+    background: #000;
+    padding: 2.5%;
+    }
+    .img-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    .img-list li {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    }
+    .img-list img {
+    max-width: 100%;
+    vertical-align: middle;
+    }
+    
+    /* Image Placeholder Styles
+    -------------------------------------------------------------- */
+    .img-placeholder:before,
+    .img-placeholder:after {
+    padding-top: 33.33%;
+    content: "";
+    display: block;
+    }  
+    .img-placeholder {
+    background: #222;
+    box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
+    color: #444;
+    line-height: 0;
+    text-align: center;
+    display: block;
+    }
+    
+    /* The hover effect
+    -------------------------------------------------------------- */
+    .img-list li:before {
+    transition: all .5s ease;
+    content: "";
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    background: #333;
+    transform: scale(0);
+    }
+    .img-list li:hover:before {
+    opacity: .5;
+    transform: scale(1);
+    }
+    .img-list li:after {
+    transition: all .6s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px solid #aaa;
+    background: #000;
+    opacity: 0;
+    transform: scale(0);
+    }
+    .img-list li:hover:after {
+    opacity: .35;
+    transform: scale(1);
+    }
+    .location{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 60px;
+       
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        color: aliceblue;
+      background-color: #000;
+    }
