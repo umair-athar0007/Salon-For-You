@@ -1,3 +1,7 @@
+<h2>Live Preview Of Salon-for-You </h2>
+https://salon-for-you.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
