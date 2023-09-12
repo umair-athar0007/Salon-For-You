@@ -64,7 +64,7 @@ export function RowAndColumnSpacing() {
             <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 <Grid md={3} xs={3}>
                     <Item className="backgroundgrid">
-                        <img data-aos="flip-left" src="https://iili.io/LCfvX1.webp" alt="" />
+                        <img data-aos="flip-left" src="profiletitle.webp" alt="" />
                         <div className="profileDIvv">
 
                             <ArrowDropDownIcon fontSize="20" color="inherit" />
@@ -77,7 +77,7 @@ export function RowAndColumnSpacing() {
                 </Grid>
                 <Grid md={3} xs={3}>
                     <Item className="backgroundgrid">
-                        <img src="https://iili.io/LCfUqg.webp" alt="" />
+                        <img src="" alt="" />
                         <div className="profileDIvv">
 
                             <ArrowDropDownIcon fontSize="20" color="inherit" />
@@ -87,7 +87,7 @@ export function RowAndColumnSpacing() {
                 </Grid>
                 <Grid md={3} xs={3}>
                     <Item className="backgroundgrid">
-                        <img src="https://iili.io/LCfrrJ.webp" alt="" />
+                        <img src="" alt="" />
                         <div className="profileDIvv">
 
                             <ArrowDropDownIcon fontSize="20" color="inherit" />
@@ -96,7 +96,7 @@ export function RowAndColumnSpacing() {
                 </Grid>
                 <Grid md={3} xs={3}>
                     <Item className="backgroundgrid">
-                        <img data-aos="flip-right" src="https://iili.io/LCfvX1.webp" alt="" />
+                        <img data-aos="flip-right" src="profile4.webp" alt="" />
                         <div className="profileDIvv">
 
                             <ArrowDropDownIcon fontSize="20" color="inherit" />
@@ -118,7 +118,7 @@ export function RowAndColumnSpacing1() {
                         {/* <ScrollAnimation animateIn="fadeIn"> */}
                         <Flip left cascade>
 
-                        <img data-aos="flip-up" src="https://iili.io/LCfQII.webp" alt="" />
+                        <img data-aos="flip-up" src="james.png" alt="no image" />
                         </Flip>
                         {/* </ScrollAnimation> */}
 
@@ -738,19 +738,14 @@ export function Testmonial() {
       <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
         Read trusted reviews from our customers
       </h2>
-      {/* <p className="text-gring-offset-warm-gray-500 mx-auto mt-4 max-w-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-        praesentium natus sapiente commodi. Aliquid sunt tempore iste
-        repellendus explicabo dignissimos placeat, autem harum dolore
-        reprehenderit quis! Quo totam dignissimos earum.
-      </p> */}
+     
     </div>
     <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
       <div>
                        
         <img
           alt="Woman"
-          src="https://iili.io/LCfvX1.webp"
+          src="umairpic.png"
         //   src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
           className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
         />
@@ -810,7 +805,7 @@ export function Testmonial() {
       <div>
         <img
           alt="Woman"
-          src="https://iili.io/LCfUqg.webp"
+          src="person2.png"
         //   src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
           className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
         />
@@ -870,7 +865,7 @@ export function Testmonial() {
       <div>
         <img
           alt="Woman"
-          src="https://iili.io/LCfrrJ.webp"
+          src="person3.png"
         //   src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
           className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
         />
@@ -931,72 +926,7 @@ export function Testmonial() {
   </div>
 </section>
 
-        // <section className="text-gray-600 body-font">
-        //     <div className="container px-5 py-24 mx-auto">
-        //         <div className="flex flex-wrap  -m-4">
-        //             <div className="lg:w-1/3 mycards lg:mb-0 mb-6 p-4">
-        //                 <div className="h-full text-center">
-        //                     <img
-        //                         alt="testimonial"
-        //                         className="w-20  h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-        //                         src="https://iili.io/LCqvyl.webp"
-        //                     />
-        //                     <p className="leading-relaxed">
-        //                         Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
-        //                         taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-        //                         taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-        //                         fanny pack vaporware.
-        //                     </p>
-        //                     <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
-        //                     <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-        //                         HOLDEN CAULFIELD
-        //                     </h2>
-        //                     <p className="text-gray-500">xxxxxxx</p>
-        //                 </div>
-        //             </div>
-        //             <div className="lg:w-1/3 mycards lg:mb-0 mb-6 p-4">
-        //                 <div className="h-full text-center">
-        //                     <img
-        //                         alt="testimonial"
-        //                         className="w-20 h-20  mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-        //                         src="https://iili.io/LCfprG.webp"
-        //                     />
-        //                     <p className="leading-relaxed">
-        //                         Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
-        //                         taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-        //                         taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-        //                         fanny pack vaporware.
-        //                     </p>
-        //                     <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
-        //                     <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-        //                         ALPER KAMU
-        //                     </h2>
-        //                     <p className="text-gray-500">xxxxxxxxx</p>
-        //                 </div>
-        //             </div>
-        //             <div className="lg:w-1/3 mycards lg:mb-0 p-4">
-        //                 <div className="h-full text-center">
-        //                     <img
-        //                         alt="testimonial"
-        //                         className="w-20 h-20 mycards mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-        //                         src="https://iili.io/LCqeaf.webp"
-        //                     />
-        //                     <p className="leading-relaxed">
-        //                         Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
-        //                         taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-        //                         taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-        //                         fanny pack vaporware.
-        //                     </p>
-        //                     <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4" />
-        //                     <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-        //                         HENRY LETHAM
-        //                     </h2>
-        //                     <p className="text-gray-500">xxxxxxx</p>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
+       
 
     );
 }
@@ -1123,7 +1053,7 @@ export function Cover() {
                     </div>
                     <div className="ccc">
                         <div>
-                            <img className="swing-in-left-bck" src="https://iili.io/LCfa5l.png" alt="" />
+                            <img className="swing-in-left-bck" src="/cc.png" alt="" />
                         </div>
                         <div className="cco">
                             <h2>20 YEAR OF EXPERIENCED</h2>

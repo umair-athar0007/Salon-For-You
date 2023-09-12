@@ -16,7 +16,7 @@
 .coverPage .bg-pic {
     width: 100%;
     height: 155vh;
-    background-image: url(https://iili.io/LCf1z7.webp);
+    background-image: url(/public/cover.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,19 +55,19 @@
 }
 
 .flex-boxes .chids-flex:nth-child(1) .imagee {
-    background-image: url(https://iili.io/LCf6dv.webp);
+    background-image: url(/public/one.png);
 }
 
 .flex-boxes .chids-flex:nth-child(2) .imagee {
-    background-image: url(https://iili.io/LCq92f.webp);
+    background-image: url(/public/two.png);
 }
 
 .flex-boxes .chids-flex:nth-child(3) .imagee {
-    background-image: url(https://iili.io/LCfbBn.webp);
+    background-image: url(/public/three.png);
 }
 
 .flex-boxes .chids-flex:nth-child(4) .imagee {
-    background-image: url(https://iili.io/LCfW0b.webp);
+    background-image: url(/public/four.png);
 }
 
 .flex-boxes .chids-flex:nth-child(1),
@@ -97,47 +97,47 @@
 
 .allpics .main:nth-child(1) .bgpicc {
 
-    background-image: url(https://iili.io/LCqa4a.webp);
+    background-image: url(/public/two.png);
 
 }
 
 .allpics .main:nth-child(2) .bgpicc {
 
-    background-image: url(https://iili.io/LCqxYx.webp);
+    background-image: url(/public/one.png);
 
 }
 
 .allpics .main:nth-child(3) .bgpicc {
 
-    background-image: url(https://iili.io/LCfP7R.webp);
+    background-image: url(/public/profile4.webp);
 
 }
 
 .allpics .main:nth-child(4) .bgpicc {
 
-    background-image: url(https://iili.io/LCqYEg.webp);
+    background-image: url(/public/g4.png);
 
 }
 
 .allpics .main:nth-child(5) .bgpicc {
 
-    background-image: url(https://iili.io/LCql3J.webp);
+    background-image: url(/public/g5.png);
 
 }
 
 .allpics .main:nth-child(6) .bgpicc {
 
-    background-image: url(https://iili.io/LCq0Yv.webp);
+    background-image: url(/public/g6.png);
 }
 
 .allpics .main:nth-child(7) .bgpicc {
 
-    background-image: url(https://iili.io/LCq1vR.webp);
+    background-image: url(/public/g7.png);
 }
 
 .allpics .main:nth-child(8) .bgpicc {
 
-    background-image: url(https://iili.io/LCqEpp.webp);
+    background-image: url(/public/g8.png);
 
 }
 
@@ -167,7 +167,7 @@
 
     .twrpart .toweric {
 
-        background-image: url(https://iili.io/LCfm1s.webp);
+        background-image: url(/public/tower.webp);
         width: 45%;
         height: 130vh;
         background-size: cover;
@@ -375,10 +375,10 @@
         height: 85vh;
     }
 
-    /* .backgrondscolor img {
+    .backgrondscolor img {
         width: 30vw;
         height: 70vh;
-    } */
+    }
     .eventsPic:hover .overlayevents {
         overflow: hidden;
         cursor: pointer;
@@ -503,7 +503,7 @@
     margin-top: 30px;
     width: 100%;
     height: 400px;
-    background-image: url(https://iili.io/LCfw5Q.webp);
+    background-image: url(/public/sub.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -513,7 +513,7 @@
     margin-top: 30px;
     width: 100%;
     height: 300px;
-    background-image: url(https://iili.io/Liixs9.webp);
+    background-image: url(/public/sale.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -786,17 +786,17 @@ display: block;
 }
 .planssout .aa:nth-child(1) .bg-planes{
   
-    background-image: url(https://iili.io/LCq92f.webp);
+    background-image: url(/public/g7.png);
      
 }
 .planssout .aa:nth-child(2) .bg-planes{
   
-    background-image: url(https://iili.io/LCqxYx.webp);
+    background-image: url(/public/g5.png);
      
 }
 .planssout .aa:nth-child(3) .bg-planes{
   
-    background-image: url(https://iili.io/LCqYEg.webp);
+    background-image: url(/public/g4.png);
      
 }
 .servic{
@@ -880,10 +880,10 @@ background-color: #f9b055;
     }
 
 
-    /* .backgrondscolor img {
+    .backgrondscolor img {
         width: 30vw;
         height: 50vh;
-    } */
+    }
 
     .profile img {
         width: 20vw;
@@ -908,7 +908,7 @@ background-color: #f9b055;
 
     .twrpart .toweric {
 
-        background-image: url(https://iili.io/LCfm1s.webp);
+        background-image: url(/public/tower.webp);
         width: 45%;
         height: 130vh;
         background-size: cover;
@@ -1353,7 +1353,7 @@ bgmy h1 span {
 
     .twrpart .toweric {
 
-        background-image: url(https://iili.io/LCfm1s.webp);
+        background-image: url(/public/tower.webp);
         width: 80%;
         height: 130vh;
         margin: auto;
